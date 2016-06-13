@@ -1,0 +1,13 @@
+Tests/Resources/app/cache
+Tests/Resources/app/logs
+Tests/Resources/app/data
+Tests/Resources/TestBundle/Resources/config/massive-search/
+Tests/Resources/TestBundle/Entity
+Resources/docs/build
+composer.lock
+vendor
+
+#intelij
+/.idea
+
+*.iml

@@ -1,0 +1,23 @@
+{
+    "name": "massive/build-bundle",
+    "description": "Massive Art Build Bundle",
+    "homepage": "https://github.com/massiveart/MassiveBuildBundle",
+    "authors": [
+        {
+            "name": "Daniel Leech",
+            "email": "daniel.leech@massiveart.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "symfony/console": "~2.4",
+        "symfony/framework-bundle": "~2.4"
+    },
+    "autoload": {
+        "psr-4": {"Massive\\Bundle\\BuildBundle\\": "."}
+    },
+    "require-dev": {
+        "phpspec/prophecy-phpunit": "v1.0.1",
+        "matthiasnoback/symfony-dependency-injection-test": "v0.7.1"
+    }
+}

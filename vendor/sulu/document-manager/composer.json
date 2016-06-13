@@ -1,0 +1,31 @@
+{
+    "name": "sulu/document-manager",
+    "description": "Sulu Document Manager",
+    "require": {
+        "doctrine/phpcr-odm": "~1.2",
+        "symfony/event-dispatcher": "~2.0",
+        "symfony-cmf/core-bundle": "~1.2",
+        "ocramius/proxy-manager": "~1.0",
+        "aferrandini/urlizer": "1.0.*",
+        "symfony/options-resolver": "~2.4"
+    },
+    "require-dev": {
+        "jackalope/jackalope-doctrine-dbal": "~1.2@dev",
+        "phpunit/phpunit": "~4.5",
+        "monolog/monolog": "~1.0",
+        "phpbench/phpbench": "0.10.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Leech",
+            "email": "daniel@dantleech.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Sulu\\Component\\DocumentManager\\": "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Sulu\\Component\\DocumentManager\\Tests\\": "tests/" }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "phpcr/phpcr-migrations",
+    "description": "Migrations for PHPCR",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Leech",
+            "email": "daniel@dantleech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpcr/phpcr": "~2.1",
+        "symfony/finder": "~2.1",
+        "symfony/console": "~2.1"
+    },
+    "require-dev": {
+        "jackalope/jackalope-fs": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPCR\\Migrations\\": "lib"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PHPCR\\Migrations\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {"dev-master": "1.0-dev" }
+    }
+}

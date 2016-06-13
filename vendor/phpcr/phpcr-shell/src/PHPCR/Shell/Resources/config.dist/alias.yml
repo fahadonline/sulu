@@ -1,0 +1,61 @@
+# Shell shortcuts
+aliases: shell:alias:list
+creload: shell:config:reload
+cinit: shell:config:init
+clear: shell:clear
+
+# MySQL commands
+use: workspace:use {arg1}
+explain: node-type:show {arg1}
+
+# Filesystem commands
+cd: shell:path:change {arg1}
+rm: node:remove {arg1}
+mv: node:move {arg1} {arg2}
+pwd: shell:path:show
+exit: shell:exit
+
+# Node commands
+ls: node:list {arg1}
+ln: node:clone {arg1} {arg2} # symlink, as in ln -s
+cp: node:copy {arg1} {arg2}
+cat: node:property:show {arg1}
+touch: node:property:set {arg1} {arg2} {arg3}
+mkdir: node:create {arg1} {arg2}
+
+# Node type commands
+mixins: node-type:list "^mix:"
+nodetypes: node-type:list {arg1}
+ntedit: node-type:edit {arg1}
+ntshow: node-type:show {arg1}
+
+# Workspace commands
+workspaces: workspace:list
+
+# Namespsce commands
+namespaces: workspace:namespace:list {arg1}
+nsset: workspace:namespace:register
+
+# Editor commands
+vi: node:edit {arg1} {arg2}
+vim: node:edit {arg1} {arg2}
+nano: node:edit {arg1} {arg2}
+
+# GNU commands
+man: help {arg1}
+
+# Version commands
+checkin: version:checkin {arg1}
+ci: version:checkin {arg1}
+co: version:checkout {arg1}
+checkout: version:checkout {arg1}
+cp: version:checkpoint {arg1}
+checkpoint: version:checkpoint {arg1}
+vhist: version:history {arg1}
+versions: version:history {arg1}
+
+# Session commands
+save: session:save
+s: session:save
+refresh: session:refresh
+r: session:refresh
