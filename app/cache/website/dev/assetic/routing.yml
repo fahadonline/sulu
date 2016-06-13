@@ -1,5 +1,0 @@
-_assetic:
-    resource: .
-    type: assetic
-_app:
-    resource: /opt/lampp/htdocs/sulu-standard/app/config/website/routing_dev.yml
