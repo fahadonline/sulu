@@ -33,7 +33,7 @@
 !/app/Resources/webspaces/*.dist
 
 # pages
-/app/Resources/pages/*
+#/app/Resources/pages/*
 !/app/Resources/pages/*.dist
 
 # snippets
