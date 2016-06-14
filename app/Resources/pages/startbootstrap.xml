@@ -193,5 +193,31 @@
                 </block>
             </properties>
         </section>
+        
+        <property name="pages" type="smart_content">
+            <meta>
+                <title lang="en">Smart Content</title>
+            </meta>
+
+            <params>
+                <param name="properties" type="collection">
+                    <param name="title" value="title"/>
+                    <param name="description" value="excerpt.description"/>
+                </param>
+                <param name="present_as" type="collection">
+                    <param name="one">
+                        <meta>
+                            <title lang="en">One column</title>
+                        </meta>
+                    </param>
+                    <param name="two">
+                        <meta>
+                            <title lang="en">Two column</title>
+                        </meta>
+                    </param>
+                </param>
+            </params>
+        </property>
+        
     </properties>
 </template>
