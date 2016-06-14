@@ -12,10 +12,10 @@
     </localizations>
 
     <theme>
-        <key>default</key>
+        <key>startbootstrap</key>
         <default-templates>
-            <default-template type="page">default</default-template>
-            <default-template type="homepage">overview</default-template>
+            <default-template type="page">startbootstrap</default-template>
+            <default-template type="homepage">startbootstrap</default-template>
         </default-templates>
 
         <error-templates>
